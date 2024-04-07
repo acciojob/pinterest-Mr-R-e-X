@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.body-img{
+	height: max-content;
+	width: 75vw;
+	object-fit: cover;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 20px;
+	margin: 20px;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.hero .explore-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .explore-button:hover {
+    background-color:indianred;
+}
